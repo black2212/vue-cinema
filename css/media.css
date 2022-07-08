@@ -1,0 +1,67 @@
+@media (max-width: 1200px){
+    .series-second__cards{
+        justify-content: center;
+        gap: 30px;
+    }
+    .main-title{
+        text-align: center;
+        width: 100%;
+    }
+}
+@media (max-width: 1024px){
+    .header-content__txt h1{
+        font-size: 47px;
+        margin-bottom: 0;
+    }
+}
+@media (max-width:570px) {
+    .header-nav__list{
+    position:fixed;
+    left:0;
+    top:-100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: linear-gradient(90.09deg, #3700af87 0%, #bf71048a 97.52%, #c2740088 100%, #c274007d 100%);
+    gap: 60px;
+    transition: 500ms;
+    }
+.header-nav__list-link{
+    font-size: 20px;
+}
+.burger{
+    display: block;
+}
+.burger:hover ~ .header-nav__list{
+    top: 0;
+} 
+
+.series-second__cards-main{
+    background-position: center;
+}
+.trailer img{
+    width: 100%;
+} 
+.btn{
+    padding: 11px 18px;
+    margin-right: 20px;
+}
+.header-content__txt h1{
+    font-size: 30px;
+}
+.header-content{
+    background: url(https://1.bp.blogspot.com/-IZptI6Md4Z4/YNrORJYRfvI/AAAAAAAAAVA/-dDRkVeiahkHk8g0iwy7E8pv-2uS4KjIACLcBGAsYHQ/s320/kongskullisland6.jpg) rgba(7, 15, 25, 0.75);
+    background-position: center;
+    background-size: cover;
+}
+.series-second__cards-mini div{
+    width: 100%;
+    height: 360px;
+    justify-content: center;
+}
+}
+
+    
